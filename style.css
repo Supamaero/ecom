@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* Hero section */
+
+.hero-section{
+    height:100vh;
+    width:100%;
+    background-color: brown;
+}
+
+.navigation-bar-mobile{
+    height:64px;
+    widows: 100%;background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner{
+    height:382px;
+    width:100%;
+    background-color: grey;
+}
+
+.filter-container{
+    width:100%;
+    background-color: yellow;
+    display: flex;
+    justify-content:space-between;
+    margin-top:52px;
+    padding: 20px 0px;
+}
+
+.filter{
+    height:30px;
+    width:84px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.sort{
+    height:30px;
+    width:84px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+/* Main Section */
+.main-section-container{
+    padding:20px;
+    background-color: green;
+}
+
+.card-container-flexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container{
+    height:450px;
+    width:328px;
+    background-color: orange;
+    padding:28px 24px;
+    display: flex;
+    flex-direction: column;
+    margin-top:24px;
+
+}
+
+
+
+.card-bottom{
+    background-color: green;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.user-name{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.amount{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.bid{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.timer{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.bid-now-button{
+    height:32px;
+    width:88px;
+    background-color: black;
+    color:white;
+    border:none;
+}
+
+.watchlist-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top:24px;
+}
+
+.watchlist{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.view-all{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
