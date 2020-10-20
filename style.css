@@ -11,10 +11,10 @@
     background-color: #F2F2F2;
 }
 
-.mini-container{
+/* .mini-container{
     padding-left:16px;
     padding-right:16px;
-}
+} */
 
 .hero-section{
     width:100%;
@@ -25,9 +25,11 @@
     display: none;
 }
 
+
 .navigation-bar-mobile{
     height:64px;
     widows: 100%;background-color: red;
+    padding:0 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,11 +43,11 @@
 
 .filter-container{
     width:100%;
-    background-color: yellow;
+    background-color: purple;
     display: flex;
     justify-content:space-between;
     margin-top:52px;
-    padding: 20px 0px;
+    padding: 20px 16px;
 }
 
 .filter{
@@ -78,7 +80,7 @@
 
 /* Main Section */
 .main-section-container{
-    padding:20px;
+    padding:0 16px;
     background-color: green;
 }
 
@@ -181,10 +183,11 @@
 /* Pagination */
 
 .pagination-container{
-    padding-top:20px;
-    padding-bottom:20px;
     width:100%;
     background-color:red;
+    padding:24px 16px;
+    margin-top:24px;
+    margin-bottom:24px;
 }
 
 .pagination a{
@@ -206,6 +209,8 @@
 .footer-flex-container{
     padding-top:24px;
     padding-bottom:24px;
+    padding-left:48px;
+    padding-right:48px;
     background-color:#232F3E;
 }
 
@@ -272,6 +277,7 @@
 .hero-section{
     width:100%;
     background-color: brown;
+    
 }
 
 .navigation-web{
@@ -280,6 +286,15 @@
 
 .navigation-mobile{
     display: none;
+}
+
+.navigation-bar-web{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 48px;
+
 }
 
 .search-container{
@@ -320,8 +335,8 @@
 
 
 .nav-image{
-    height:32px;
-    width:32px;
+    height:38px;
+    width:38px;
     border-radius: 100%;
     background-color: tomato;
 
@@ -342,12 +357,11 @@
     display: flex;
     justify-content:space-between;
     margin-top:52px;
-    padding: 20px 0px;
+    padding: 20px 48px;
 }
 
 .filter{
-    height:30px;
-    width:84px;
+    padding:10px 24px;
     border:2px solid black;
     display: flex;
     justify-content: center;
@@ -356,8 +370,7 @@
 }
 
 .sort{
-    height:30px;
-    width:84px;
+    padding:10px 24px;
     border:2px solid black;
     display: flex;
     justify-content: center;
@@ -367,7 +380,7 @@
 
 /* Main Section */
 .main-section-container{
-    padding:20px;
+    padding:24px 48px;
     background-color: green;
 }
 
@@ -474,10 +487,9 @@
 /* Pagination */
 
 .pagination-container{
-    height:50px;
     width:100%;
-    background-color:red;
-    margin-top:24px;
+    background-color:transparent;
+    padding: 48px 48px;
 }
 
 .footer-flex-container{
