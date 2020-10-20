@@ -7,14 +7,22 @@
 
 /* Hero section */
 
-/* .mini-container{
+.mini-container{
+    background-color: #F2F2F2;
+}
+
+.mini-container{
     padding-left:16px;
     padding-right:16px;
-} */
+}
 
 .hero-section{
     width:100%;
     background-color: brown;
+}
+
+.navigation-web{
+    display: none;
 }
 
 .navigation-bar-mobile{
@@ -41,8 +49,7 @@
 }
 
 .filter{
-    height:30px;
-    width:84px;
+    padding:10px 24px;
     border:2px solid black;
     display: flex;
     justify-content: center;
@@ -50,14 +57,23 @@
     background-color: transparent;
 }
 
+.sort-img{
+    height:24px;
+    width:24px;
+}
+
 .sort{
-    height:30px;
-    width:84px;
+    padding:10px 24px;
     border:2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: transparent;
+}
+
+.sort-img{
+    height:24px;
+    width:24px;
 }
 
 /* Main Section */
@@ -165,11 +181,27 @@
 /* Pagination */
 
 .pagination-container{
-    height:50px;
+    padding-top:20px;
+    padding-bottom:20px;
     width:100%;
     background-color:red;
-    margin-top:24px;
 }
+
+.pagination a{
+    padding: 24px 30px;
+    background-color:#FFFFFF;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #000000;
+    color: white;
+  }
+
+  .pagination a:hover:not(.active) {background-color: #E2E2E2;
+}
+
 
 .footer-flex-container{
     padding-top:24px;
@@ -242,14 +274,62 @@
     background-color: brown;
 }
 
-.navigation-bar-mobile{
-    /* height:64px; */
-    widows: 100%;background-color: red;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navigation-web{
+    display: block;
 }
 
+.navigation-mobile{
+    display: none;
+}
+
+.search-container{
+    padding:12px;
+    /* background-color:blue; */
+}
+
+.input{
+    padding:6px;
+    width:400px;
+    background-color: transparent;
+    border:2px solid white;
+}
+
+
+.search-button{
+    padding:6px;
+    border:2px solid #DD821F;
+    background-color:#DD821F;
+    color:white;
+}
+
+.nav-items{
+    background-color:yellow;
+    width:25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list{
+    text-decoration: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.nav-image{
+    height:32px;
+    width:32px;
+    border-radius: 100%;
+    background-color: tomato;
+
+}
+.logo-web{
+    height:46px;
+    width:120px;
+}
 .banner{
     height:382px;
     width:100%;

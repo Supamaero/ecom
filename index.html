@@ -13,12 +13,34 @@
     <div class="mini-container">
       <div class="hero-section">
         <!-- Navigation -->
-      <div class="navigation">
+      <div class="navigation-mobile">
           <div class="navigation-bar-mobile">
               <img src="./resources/logo.svg" alt="logo"/>
               <img src="./resources/menu-icon.svg" alt="togggle button" />
           </div>
       </div>
+
+      <div class="navigation-web">
+        <div class="navigation-bar-mobile">
+            <img class="logo-web" src="./resources/logo.svg" alt="logo"/>
+            <div class="search-container">
+              <form>
+                <input class="input" type="search">
+                <button class="search-button">Search</button>
+              </form>
+            </div >
+
+            <div class="nav-items">
+              <a class="nav-list" href="#">Auctions</a>
+              <a class="nav-list" href="#">Winner</a>
+              <a class="nav-list" href="#">How it works</a>
+            </div>
+            
+            <div class="nav-image">
+
+            </div>
+        </div>
+    </div>
 
       <!-- Banner -->
       <div class="banner">
@@ -27,8 +49,11 @@
 
       <!-- Filters -->
       <div class="filter-container">
-        <button class="sort"> Sort </button>
-        <button class="filter"> Filter </button>
+        <button class="sort">
+          <img class ="sort-img" src="resources/sort.svg"/> Sort </button>
+        <button class="filter"> 
+          <img class ="sort-img" src="resources/filter.svg"/> Filter
+        </button>
       </div>
 
     </div>
@@ -288,6 +313,12 @@
 
       <!-- Pagination -->
         <div class="pagination-container">
+
+          <div class="pagination">
+            <a  href="#">1</a>
+            <a class="active" href="#">2</a>
+            <a href="#">3</a>
+          </div>
 
         </div>
 
