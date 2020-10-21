@@ -20,6 +20,9 @@
                 <label for="toggle"> &#9776;</label>
                 <input class="checkbox" type="checkbox" id="toggle" />
                 <div class="menu">
+                  <div>
+                    <input class="nav-search"  type="search" />
+                  </div>
                      <a class="menu-list" href="#">History</a>
                      <a class="menu-list" href="#">Account</a>
                      <a class="menu-list" href="#">Buy bids</a>
@@ -58,11 +61,22 @@
 
       <!-- Filters -->
       <div class="filter-container">
-        <button class="sort">
-          <img class ="sort-img" src="resources/sort.svg"/> Sort </button>
-        <button class="filter"> 
-          <img class ="sort-img" src="resources/filter.svg"/> Filter
-        </button>
+
+        <div class="sort-item"> 
+          <input class="check" type="checkbox" id="sort" />
+              <div class="sort-list">
+                <a class="sort-list" href="#">History</a>
+                <a class="sort-list" href="#">Account</a>
+                <a class="sort-list" href="#">Buy bids</a>
+                <a class="sort-list" href="#">Log Out</a>
+          </div>
+        </div>
+          
+
+          <input class="filter" type="button" value="Filter" />
+
+        <!-- <button class="sort"><img class ="sort-img" src="resources/sort.svg"/> Sort </button> -->
+        <!-- <button class="filter"> <img class ="sort-img" src="resources/filter.svg"/> Filter </button> -->
       </div>
 
     </div>
