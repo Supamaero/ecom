@@ -60,7 +60,7 @@
     z-index: 3;
 }
 
-label{
+.nav-toggle{
     font-size:26px;
     line-height: 70px;
     color:#FAFAFA;
@@ -91,14 +91,11 @@ label{
     background-color:#FFFFFF;
 }
 
-
-
-
-.banner{
-    height:382px;
+.mySlides{
+    height:426px;
     width:100%;
-    background-color: grey;
 }
+
 
 .filter-container{
     width:100%;
@@ -195,7 +192,6 @@ label{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    
   }
   
   .filter-dropdown a:hover {background-color: #ddd;}
@@ -502,18 +498,28 @@ label{
 .nav-image{
     height:38px;
     width:38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 100%;
     background-color: tomato;
+    background-image: url(/resources/avatar.jpg);
+    background-position: center;
 
 }
 .logo-web{
     height:46px;
     width:120px;
 }
-.banner{
+/* .banner{
     height:382px;
     width:100%;
     background-color: grey;
+} */
+
+.mySlides{
+    height:426px;
+    width:100%;
 }
 
 .filter-container{
