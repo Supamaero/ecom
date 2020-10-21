@@ -41,16 +41,23 @@
                 <button class="search-button">Search</button>
               </form>
             </div >
-
             <div class="nav-items">
               <a class="nav-list" href="#">Auctions</a>
               <a class="nav-list" href="#">Winner</a>
               <a class="nav-list" href="#">How it works</a>
             </div>
             
-            <div class="nav-image">
-
+              <div class="nav-image-dropdown">
+                <div class="nav-image"> </div>
+              <div class="nav-image-dropdown-content" >
+                    <a href="#">Auctions</a>
+                    <a href="#">Winner</a>
+                    <a href="#">How it works</a>
+                    <a href="#">Log out</a>
+                </div>
             </div>
+
+            
         </div>
     </div>
 
@@ -60,24 +67,33 @@
       </div>
 
       <!-- Filters -->
+
       <div class="filter-container">
 
-        <div class="sort-item"> 
-          <input class="check" type="checkbox" id="sort" />
-              <div class="sort-list">
-                <a class="sort-list" href="#">History</a>
-                <a class="sort-list" href="#">Account</a>
-                <a class="sort-list" href="#">Buy bids</a>
-                <a class="sort-list" href="#">Log Out</a>
+        <div class="sort-dropdown">
+          <button class="sortbtn" onclick="mySortFunction()"> <img class ="sort-img" src="resources/sort.svg"/> Sort </button>
+        <div id="mySortDropdown" class="sort-dropdown-content">
+              <a href="#">Link One</a>
+              <a href="#">Link Two</a>
+              <a href="#">Link Three</a>
+              <a href="#">Link Four</a>
           </div>
-        </div>
-          
-
-          <input class="filter" type="button" value="Filter" />
-
-        <!-- <button class="sort"><img class ="sort-img" src="resources/sort.svg"/> Sort </button> -->
-        <!-- <button class="filter"> <img class ="sort-img" src="resources/filter.svg"/> Filter </button> -->
       </div>
+
+      <div class="filter-dropdown">
+        <button class="filterbtn" onclick="myFilterFunction()"> <img class ="sort-img" src="resources/filter.svg"/>Filter </button>
+      <div id="myFilterDropdown" class="filter-dropdown-content">
+            <a href="#">Link One</a>
+            <a href="#">Link Two</a>
+            <a href="#">Link Three</a>
+            <a href="#">Link Four</a>
+        </div>
+    </div>
+      </div>
+     
+      
+        
+      
 
     </div>
 <!-- Main section -->
@@ -395,5 +411,7 @@
     </div>
     
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
