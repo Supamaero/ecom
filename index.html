@@ -13,19 +13,28 @@
     <div class="mini-container">
       <div class="hero-section">
         <!-- Navigation -->
-      <div class="navigation-mobile">
           <div class="navigation-bar-mobile">
-              <img src="./resources/logo.svg" alt="logo"/>
-              <img src="./resources/menu-icon.svg" alt="togggle button" />
+            <a href="#"> <img src="./resources/logo.svg" alt="logo"/></a>
+            
+            <div class="nav">
+                <label for="toggle"> &#9776;</label>
+                <input class="checkbox" type="checkbox" id="toggle" />
+                <div class="menu">
+                     <a class="menu-list" href="#">History</a>
+                     <a class="menu-list" href="#">Account</a>
+                     <a class="menu-list" href="#">Buy bids</a>
+                     <a class="menu-list" href="#">Log Out</a>
+                </div>
           </div>
-      </div>
+  
+          </div>
 
       <div class="navigation-web">
         <div class="navigation-bar-web">
             <img class="logo-web" src="./resources/logo.svg" alt="logo"/>
             <div class="search-container">
               <form>
-                <input class="input" type="search">
+                <input class="search-input" type="search">
                 <button class="search-button">Search</button>
               </form>
             </div >
@@ -313,9 +322,8 @@
 
       <!-- Pagination -->
         <div class="pagination-container">
-
             <div class="pagination">
-              <a  href="#">1</a>
+              <a href="#">1</a>
               <a class="active" href="#">2</a>
               <a href="#">3</a>
             </div>

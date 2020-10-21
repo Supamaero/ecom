@@ -7,18 +7,14 @@
 
 /* Hero section */
 
-.mini-container{
+.main-container{
     background-color: #F2F2F2;
 }
 
-/* .mini-container{
-    padding-left:16px;
-    padding-right:16px;
-} */
 
 .hero-section{
     width:100%;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .navigation-web{
@@ -35,6 +31,51 @@
     align-items: center;
 }
 
+.nav{
+    text-align: right;
+    height:70px;
+    /* line-height:70px; */
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.menu{
+    text-align:left;
+    display: none;
+    background-color: violet;
+}
+
+label{
+    font-size:26px;
+    line-height: 70px;
+}
+
+.checkbox{
+    display: none;
+}
+
+ .menu-list {
+    text-decoration: none;
+    color:white;
+    /* padding:0px 16px; */
+    line-height: 70px;
+    margin:0;
+    display:flex;
+    align-self: flex-start;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+#toggle:checked + .menu{
+    display: block;
+    /* height:100vh; */
+    background-color:pink;
+}
+
+
+
+
 .banner{
     height:382px;
     width:100%;
@@ -43,7 +84,7 @@
 
 .filter-container{
     width:100%;
-    background-color: purple;
+    /* background-color: purple; */
     display: flex;
     justify-content:space-between;
     margin-top:52px;
@@ -81,7 +122,7 @@
 /* Main Section */
 .main-section-container{
     padding:0 16px;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .card-container-flexbox{
@@ -92,8 +133,8 @@
 
 .card-container{
     height:450px;
-    width:328px;
-    background-color: orange;
+    width:100%;
+    background-color:#FFFFFF;
     padding:28px 24px;
     display: flex;
     flex-direction: column;
@@ -105,7 +146,7 @@
 
 
 .card-bottom{
-    background-color: green;
+    /* background-color: green; */
     width:100%;
     display: flex;
     justify-content: space-between;
@@ -276,7 +317,7 @@
 } */
 .hero-section{
     width:100%;
-    background-color: brown;
+    /* background-color: brown; */
     
 }
 
@@ -284,12 +325,12 @@
     display: block;
 }
 
-.navigation-mobile{
+.navigation-bar-mobile{
     display: none;
 }
 
 .navigation-bar-web{
-    background-color: green;
+    background-color:#232F3E;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -299,14 +340,14 @@
 
 .search-container{
     padding:12px;
-    /* background-color:blue; */
+   
 }
 
-.input{
+.search-input{
     padding:6px;
     width:400px;
     background-color: transparent;
-    border:2px solid white;
+    border:2px solid #fafafa;
 }
 
 
@@ -318,10 +359,11 @@
 }
 
 .nav-items{
-    background-color:yellow;
-    width:25%;
+    /* background-color:yellow; */
+    width:20%;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .nav-list{
@@ -331,6 +373,11 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
+    color:#fafafa;
+}
+
+.nav-list:hover{
+    color:#DD821F;
 }
 
 
@@ -353,7 +400,7 @@
 
 .filter-container{
     width:100%;
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     justify-content:space-between;
     margin-top:52px;
@@ -381,7 +428,7 @@
 /* Main Section */
 .main-section-container{
     padding:24px 48px;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .card-container-flexbox{
@@ -397,7 +444,7 @@
 .card-container{
     height:450px;
     width:300px;
-    background-color: orange;
+    background-color:#FFFFFF;
     padding:28px 24px;
     display: flex;
     flex-direction: column;
@@ -409,7 +456,7 @@
 
 
 .card-bottom{
-    background-color: green;
+    /* background-color: green; */
     width:100%;
     display: flex;
     justify-content: space-between;
