@@ -85,7 +85,7 @@
 }
 
 .slider-container{
-    display: nonegit;
+    display: none;
 }
 
 .mySlides{
@@ -249,7 +249,7 @@
     font-family: Nunito;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
 }
 
@@ -257,8 +257,9 @@
     font-family: Nunito;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
+    margin-top: 8px;
 }
 
 .bid{
@@ -271,16 +272,17 @@
     font-family: Nunito;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
 }
 
 .bid-now-button{
-    height:32px;
+    height:36px;
     width:88px;
     background-color:#232F3E;
     color:white;
     border:none;
+    margin-top: 8px;
 }
 
 .watchlist-container{
