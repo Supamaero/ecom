@@ -84,7 +84,12 @@
     background-color:#FFFFFF;
 }
 
+.slider-container{
+    display: nonegit;
+}
+
 .mySlides{
+    
     height:426px;
     width:100%;
 }
