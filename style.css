@@ -18,7 +18,19 @@
 
 .navigation-web{
     display: none;
+    width:100%;
 }
+
+
+.nav-search{
+    border:1px solid #BEBEC0;
+    position: absolute;
+    width:100%;
+    height:48px;
+    top:150px;
+    left:0px; 
+}
+
 
 .navigation-bar-mobile{
     height:64px;
@@ -35,7 +47,6 @@
     /* line-height:70px; */
     display: flex;
     flex-direction: column;
-   
 }
 
 
@@ -63,10 +74,14 @@
     display: none;
 }
 
+.menu-list-container{
+    position:absolute;
+    top:250px;
+}
+
  .menu-list {
     text-decoration: none;
     color:#121212;
-    /* padding:0px 16px; */
     line-height: 70px;
     margin:0;
     display:flex;
@@ -260,6 +275,7 @@
     font-size: 18px;
     line-height: 20px;
     margin-top: 8px;
+    color:#DD821F;
 }
 
 .bid{
@@ -513,6 +529,10 @@
     width:120px;
 }
 
+
+.slider-container{
+    display: block;
+}
 
 .mySlides{
     height:426px;
